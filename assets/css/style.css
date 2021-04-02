@@ -205,9 +205,9 @@ html, body {
 }
 
 .hero .col-md-6:first-child {
-    position: fixed;
-    top: 50%;
-    left: 60%;
+    position: absolute;
+    top: 166%;
+    left: 80%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -218,8 +218,8 @@ html, body {
 
 .hero .col-md-6:last-child {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 15%;
+    top: 60%;
 }
 
 .hero h1 {
@@ -236,7 +236,7 @@ html, body {
 } 
 
 .hero img {
-    height: 420px;
+    height: 500px;
 }
 
 
